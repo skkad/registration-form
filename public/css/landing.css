@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    height: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: url(../images/wallpaper-3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+    /* border-color: aqua; */
+    /* opacity: 0.5; */
+}
+
+.title{
+  position: absolute;
+  /* width: 50%; */
+  margin: 100px 30px;
+  font-family: 'roboto', sans-serif;
+  color: #fff;
+}
+
+/* hr{
+    width: 60%;
+    margin: 150px 30px;
+    color: black;
+} */
+
+.info{
+    position: absolute;
+    width: 50%;
+    /* border: 1px solid; */
+    margin: 150px 30px;
+    direction: ltr;
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    /* display: flex;
+    justify-content:flex-start;
+    align-items: flex-start; */
+}
+
+.info2{
+    color: #fff;
+    position: absolute;
+    width: 50%;
+    margin: 350px 30px 0px;
+    direction: ltr;
+    font-family: 'roboto', sans-serif;
+}

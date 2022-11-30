@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="/css/form.css">
+
+</head>
+<body>
+    <!-- <h1>Login page</h1> -->
+    
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+
+    <form action="http://localhost:3030/login" method="POST" class="form">
+        <h1 class="heading">login</h1>
+        <div class="input-div">
+            <input type="email" name="email" placeholder="email" autocomplete="off" class="email" >
+        </div>
+        <div class="input-div">
+            <input type="password" name="password" placeholder="password" autocomplete="off" class="password" >
+        </div>
+        <button class="submit-btn">log in</button>
+        <a href="/register" class="link">don't have an account? Register one</a>
+    </div>
+
+    <!-- <script src="js/form.js"></script> -->
+    
+</body>
+</html>
